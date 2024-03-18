@@ -1,0 +1,14 @@
+{
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "eslint.validate": ["javascript"],
+    "tailwindCSS.includeLanguages": {
+      "html": "html",
+      "javascript": "javascript",
+      "css": "css"
+  },
+  "editor.quickSuggestions": {
+      "strings": true
+  }
+}
