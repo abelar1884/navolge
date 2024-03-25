@@ -1,12 +1,12 @@
-import { unitsApi } from './unitsApi'
+import { groupsApi } from './groupsApi'
 
 export interface apiInstance {
-  units: ReturnType<typeof unitsApi>
+  groups: ReturnType<typeof groupsApi>
 }
 
 const createApi = () => {
   return {
-    units: unitsApi(),
+    groups: groupsApi()
   }
 }
 

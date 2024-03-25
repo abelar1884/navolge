@@ -9,16 +9,23 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "prisma": {
+    "seed": "node prisma/seeds/seed.js"
+  },
   "dependencies": {
     "@auth/core": "^0.17.0",
     "@hebilicious/authjs-nuxt": "^0.3.5",
+    "@nuxt/ui": "^2.14.2",
     "@prisma/client": "^5.11.0",
     "nuxt": "^3.11.0",
+    "sass": "^1.72.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@types/node": "^20.11.30",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "eslint": "^8.52.0",
     "eslint-config-standard-with-typescript": "^39.1.1",
@@ -26,6 +33,8 @@
     "eslint-plugin-n": "^16.2.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-vue": "^9.18.1",
-    "prisma": "^5.11.0"
+    "prisma": "^5.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
   }
 }

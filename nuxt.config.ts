@@ -2,7 +2,8 @@ import { resolve } from 'node:path'
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@hebilicious/authjs-nuxt'],
+  modules: ['@hebilicious/authjs-nuxt', '@nuxt/ui', '@nuxtjs/tailwindcss'],
+  css: ['~/assets/scss/main.scss'],
   alias: {
     cookie: resolve(__dirname, 'node_modules/cookie')
   },
